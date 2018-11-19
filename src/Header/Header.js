@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
+import Wrap from '../Wrap/Wrap';
+import css from './Header.css';
 
 class Header extends Component {
   render() {
     return (
-      <div>
-        Header works!
-      </div>
+      <Wrap>
+        <header className={css.header}>
+          Header works!
+        </header>
+      </Wrap>
     );
   }
 }
